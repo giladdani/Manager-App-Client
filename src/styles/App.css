@@ -1,0 +1,47 @@
+.no-underline{
+  text-decoration: underline;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav-bar ul{
+  padding: 0px;
+  border-bottom: 1px solid;
+}
+
+.nav-bar li{
+  padding: 8px;
+  display: inline;
+}
+
+.nav-bar li a{
+  color:white;
+  text-decoration: none;
+}
+.employeesList{
+  position: absolute;
+  left: 50px;
+  list-style-type: none;
+}
+
+.employeesList li{
+  border: 1px solid;
+  padding: 1px 80px 1px 10px;
+}
+
+.employeesList li:hover{
+  background-color: #3b4252;
+}

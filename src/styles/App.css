@@ -2,6 +2,19 @@
   text-decoration: underline;
 }
 
+.border{
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.x-large-font{
+  font-size: x-large;
+}
+
+.xx-large-font{
+  font-size: xx-large
+}
+
 .app {
   text-align: center;
 }
@@ -44,4 +57,20 @@
 
 .employeesList li:hover{
   background-color: #3b4252;
+}
+
+.employeePhoto img{
+  width: 100%;
+  height: 100%;
+}
+
+.employeePhoto{
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.horizontalAlign{
+  float: left;
+  clear: none;
 }

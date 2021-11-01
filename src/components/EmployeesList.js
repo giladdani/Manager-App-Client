@@ -11,7 +11,7 @@ class EmployeesList extends React.Component{
     render(){
         const employeesList = this.state.employees.map((employee) => {
             return(
-                <li key={employee._id} onClick={this.handleEmployeeClick}>
+                <li key={employee._id} onClick={() => this.props.onClick(employee)}>
                     {employee.first_name}
                 </li>
             )
@@ -19,7 +19,7 @@ class EmployeesList extends React.Component{
 
         return(
             <div>
-                <ul className="employeesList">
+                <ul className="employeesList xx-large-font">
                     {employeesList}
                 </ul>
             </div>
